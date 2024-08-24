@@ -1,0 +1,46 @@
+.notification {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.notification p {
+    margin: 0;
+    padding: 0;
+}
+
+.notification p:last-child {
+    font-size: 12px;
+    color: #999;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a.add-internship {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+}
+
+.internships-list {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,63 @@
+.css body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.applicant-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.applicant-box h4 {
+    margin: 0;
+    color: #333;
+}
+
+.applicant-box p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.applicant-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.applicant-buttons form {
+    margin-left: 5px;
+}
+
+.applicant-buttons button {
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.applicant-buttons button:hover {
+    opacity: 0.8;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
